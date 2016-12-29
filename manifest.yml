@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-lilian
+  host: aplicacao-de-teste-lilian
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-lilian-AdvancedMobileAccess
+  - aplicacao-de-teste-lilian-imfpush
+  - aplicacao-de-teste-lilian-cloudantNoSQLDB
